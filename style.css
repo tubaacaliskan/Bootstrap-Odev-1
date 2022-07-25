@@ -1,0 +1,86 @@
+
+html, body {
+    background-color: #E9ECEF;
+}
+
+.nav {
+    background-color: rgb(53, 53, 53);
+}
+
+.nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;   
+    
+}
+
+.nav-logo {
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.jumbotron h1, h2, p, ul {
+    text-align: center;
+}
+
+.jumbotron ul {
+    list-style-position: inside;
+}
+
+.jumbotron .btn {  
+     position: absolute;
+     left: 45%;     
+}
+
+
+
+
+.about{
+    background-color: #E9ECEF;
+       
+}
+
+.about h1 {
+    color: blueviolet;
+    text-align: center;
+}
+
+.about-text{
+    text-align: start;
+  
+}
+
+.about h2 {
+    color: rgb(228, 169, 41);
+    text-align: start;
+}
+
+.title h1{
+    color: blueviolet;
+    text-align: center;
+    margin: 8px 0px;
+}
+
+
+.card-body h5 {
+    color: blueviolet;
+    font-weight: bold;
+}
+
+.card-body span {
+    border: secondary;
+}
+
+.card-body figure {
+    width: 100%;
+    margin: 0 0 15px 0;
+    height: 250px;
+    overflow: hidden;
+
+}
+
+.card-body figure img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
